@@ -76,6 +76,9 @@ with news:
 
 
     col2.markdown("Here's your summary")
-    col2.write(datascienceinshorts(news))
+    if not news:
+        pass
+    else:
+        col2.write(datascienceinshorts(news))
 
 
