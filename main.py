@@ -68,11 +68,14 @@ with header:
 
 
 with news:
-    st.header('Summarizer for my Datascienceinshorts')
+    st.header('Summarizer for my Data_science_in_shorts')
     col1,col2=st.columns(2)
 
 
     news = col1.text_area('Input your news here')
+
+
+    col2.markdown("Here's your summary")
     col2.write(datascienceinshorts(news))
 
 
