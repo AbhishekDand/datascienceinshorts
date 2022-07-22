@@ -55,7 +55,7 @@ def get_index_positions(list_of_elems, element):
     return index_pos_list
 
 
-image=Image.open("C:\\Users\\abhi0\\OneDrive\\Pictures\\Copy of PP Logo.png")
+image=Image.open("Copy of PP Logo.png")
 with st.sidebar:
     st.image(image,width=300)
 header=st.container()
